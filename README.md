@@ -1,4 +1,4 @@
-# Guitar-Rendition-Ontology
+# Guitar Rendition Ontology
 
 ---
 
