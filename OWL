@@ -971,7 +971,7 @@
         <Class IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-4#Choking"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-4#target_sound"/>
-            <Class IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-4#fluctuating_sound"/>
+            <Class IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-4#microtone"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -2471,6 +2471,13 @@
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-4#symbol"/>
             <Class IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-4#specific_symbol"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-4#slacken_the_string_off"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-4#target_sound"/>
+            <Class IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-4#microtone"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
