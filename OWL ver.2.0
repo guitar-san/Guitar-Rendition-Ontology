@@ -27,10 +27,10 @@
         <Class IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-4#2"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-4#set"/>
+        <Class IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-4#Sul_poticello"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-4#Sul_poticello"/>
+        <Class IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-4#set"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-7#touch_finger_board"/>
@@ -64,6 +64,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-8#unison"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-7#use_slur_body"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-4#action3"/>
@@ -123,10 +126,10 @@
         <Class IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-4#pluck_string"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-7#Ornament_rendition"/>
+        <Class IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-7#rest_on_adjacent_string_neck"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-7#rest_on_adjacent_string_neck"/>
+        <Class IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-7#Ornament_rendition"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-4#bring_finger_down"/>
@@ -138,10 +141,10 @@
         <Class IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-4#strum_strings"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-7#Articulation_rendition"/>
+        <Class IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-4#Guitar_position"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-4#Guitar_position"/>
+        <Class IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-7#Articulation_rendition"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-7#put_i"/>
@@ -195,6 +198,9 @@
         <Class IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-4#fluctuating_sound"/>
     </Declaration>
     <Declaration>
+        <Class IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-7#set_materials_neck"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Tune_up2"/>
     </Declaration>
     <Declaration>
@@ -205,9 +211,6 @@
     </Declaration>
     <Declaration>
         <Class IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-4#the_12th_fret_from_pressed_fret"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-7#do_slur_neck"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-4#instrument_sound"/>
@@ -225,10 +228,10 @@
         <Class IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-4#all_ceja"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-7#part_of_hand_or_finger"/>
+        <Class IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-8#qualitative_attribute"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-8#qualitative_attribute"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-7#part_of_hand_or_finger"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-7#Tune_down2"/>
@@ -244,6 +247,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-7#change_position_body"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-4#set_materials"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-7#6"/>
@@ -393,10 +399,13 @@
         <Class IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-4#Vibrato"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-4#Righthand"/>
+        <Class IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-7#use_slur_neck"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-4#ornament_sound"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-4#Righthand"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-7#Timbre_rendition"/>
@@ -417,6 +426,9 @@
         <Class IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-7#Harmony_rendition"/>
     </Declaration>
     <Declaration>
+        <Class IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-7#set_materials_body"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-4#ascending_slur1"/>
     </Declaration>
     <Declaration>
@@ -427,12 +439,6 @@
     </Declaration>
     <Declaration>
         <Class IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-4#hand"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-7#Set_materials_neck"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-7#do_slur_body"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-7#cross_strings"/>
@@ -474,9 +480,6 @@
         <Class IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-4#Inverted_turn"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-4#used_string"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-7#Pralltriller1"/>
     </Declaration>
     <Declaration>
@@ -495,10 +498,10 @@
         <Class IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-4#elongate_and_contract_string"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-8#artificial_things"/>
+        <Class IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-7#hammar-on"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-7#hammar-on"/>
+        <Class IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-8#artificial_things"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-7#tap_neck"/>
@@ -570,9 +573,6 @@
         <Class IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-7#Turn2"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-4#do_slur"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-4#separated_sound"/>
     </Declaration>
     <Declaration>
@@ -588,10 +588,10 @@
         <Class IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-8#1~1/2"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/nami/ontologies/2017/11/Object"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-4#the_number_of_strings_to_press"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-4#the_number_of_strings_to_press"/>
+        <Class IRI="http://www.semanticweb.org/nami/ontologies/2017/11/Object"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-7#ascending_slur2"/>
@@ -604,9 +604,6 @@
     </Declaration>
     <Declaration>
         <Class IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-4#root"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-4#Set_materials"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-7#put_a"/>
@@ -633,10 +630,10 @@
         <Class IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-4#at_two_fret"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-8#Attribute"/>
+        <Class IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-7#change_position_neck"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-7#change_position_neck"/>
+        <Class IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-8#Attribute"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-4#used_finger"/>
@@ -675,19 +672,16 @@
         <Class IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-7#Trill2"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-7#Set_materials_body"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-4#guitar_parts"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-7#turn_tuning_peg_neck"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-4#sound_hall"/>
+        <Class IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-7#release_finger_from_the_string_neck"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-7#release_finger_from_the_string_neck"/>
+        <Class IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-4#sound_hall"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-7#Natural_harmonics2"/>
@@ -711,10 +705,10 @@
         <Class IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-7#pluck_string_neck"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-7#Bottle_neck2"/>
+        <Class IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-4#Sul_tasto"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-4#Sul_tasto"/>
+        <Class IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-7#Bottle_neck2"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-7#Mordento2"/>
@@ -792,6 +786,9 @@
         <Class IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-4#Pralltriller"/>
     </Declaration>
     <Declaration>
+        <Class IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-4#use_slur"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-4#ornament_symbol"/>
     </Declaration>
     <Declaration>
@@ -831,10 +828,10 @@
         <Class IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-7#2~6"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-4#slaped_string_sound"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-4#tool"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-4#tool"/>
+        <Class IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-4#slaped_string_sound"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-4#gliding_sound"/>
@@ -858,10 +855,10 @@
         <ObjectProperty IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-4#action2"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-4#soft_sound"/>
+        <Class IRI="#touch_string_body"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#touch_string_body"/>
+        <Class IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-4#soft_sound"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-4#Bothhand"/>
@@ -1081,7 +1078,7 @@
             <ObjectIntersectionOf>
                 <ObjectSomeValuesFrom>
                     <ObjectProperty IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-7#primary-action"/>
-                    <Class IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-7#Set_materials_neck"/>
+                    <Class IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-7#set_materials_neck"/>
                 </ObjectSomeValuesFrom>
                 <ObjectAllValuesFrom>
                     <ObjectProperty IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-4#tool"/>
@@ -1647,7 +1644,7 @@
                     </ObjectSomeValuesFrom>
                     <ObjectSomeValuesFrom>
                         <ObjectProperty IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-7#conditional-action1"/>
-                        <Class IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-4#Set_materials"/>
+                        <Class IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-4#set_materials"/>
                     </ObjectSomeValuesFrom>
                     <ObjectAllValuesFrom>
                         <ObjectProperty IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-4#place_of_action"/>
@@ -1710,10 +1707,6 @@
             <ObjectProperty IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-4#target_sound"/>
             <Class IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-4#noise"/>
         </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-4#Set_materials"/>
-        <Class IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-4#Guitar_player&apos;s_action"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-4#Slapping"/>
@@ -1997,8 +1990,8 @@
             <ObjectSomeValuesFrom>
                 <ObjectProperty IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-7#primary-action"/>
                 <ObjectIntersectionOf>
-                    <Class IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-7#do_slur_body"/>
-                    <Class IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-7#do_slur_neck"/>
+                    <Class IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-7#use_slur_body"/>
+                    <Class IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-7#use_slur_neck"/>
                 </ObjectIntersectionOf>
             </ObjectSomeValuesFrom>
         </ObjectSomeValuesFrom>
@@ -2202,8 +2195,17 @@
     <SubClassOf>
         <Class IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-4#all_ceja"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-7#primary-action"/>
+            <ObjectProperty IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-4#action1"/>
             <ObjectIntersectionOf>
+                <ObjectUnionOf>
+                    <Class IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-4#2"/>
+                    <Class IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-4#3"/>
+                    <Class IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-4#4"/>
+                    <ObjectSomeValuesFrom>
+                        <ObjectProperty IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-4#used_finger"/>
+                        <Class IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-4#1"/>
+                    </ObjectSomeValuesFrom>
+                </ObjectUnionOf>
                 <ObjectSomeValuesFrom>
                     <ObjectProperty IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-4#place_of_action"/>
                     <Class IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-4#at_one_fret"/>
@@ -2212,6 +2214,14 @@
                     <ObjectProperty IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-4#the_number_of_strings_to_press"/>
                     <Class IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-7#6"/>
                 </ObjectSomeValuesFrom>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-7#primary-action"/>
+                    <Class IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-7#press_string_neck"/>
+                </ObjectSomeValuesFrom>
+                <ObjectAllValuesFrom>
+                    <ObjectProperty IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-4#the_number_of_strings_to_press"/>
+                    <Class IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-7#2~6"/>
+                </ObjectAllValuesFrom>
             </ObjectIntersectionOf>
         </ObjectSomeValuesFrom>
     </SubClassOf>
@@ -2306,31 +2316,6 @@
         <Class IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-7#Press_string_rendition"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-4#ceja"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-4#action1"/>
-            <ObjectIntersectionOf>
-                <ObjectUnionOf>
-                    <Class IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-4#2"/>
-                    <Class IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-4#3"/>
-                    <Class IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-4#4"/>
-                    <ObjectAllValuesFrom>
-                        <ObjectProperty IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-7#part_of_hand_or_finger"/>
-                        <Class IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-4#1"/>
-                    </ObjectAllValuesFrom>
-                </ObjectUnionOf>
-                <ObjectSomeValuesFrom>
-                    <ObjectProperty IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-7#primary-action"/>
-                    <Class IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-7#press_string_neck"/>
-                </ObjectSomeValuesFrom>
-                <ObjectAllValuesFrom>
-                    <ObjectProperty IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-4#the_number_of_strings_to_press"/>
-                    <Class IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-7#2~6"/>
-                </ObjectAllValuesFrom>
-            </ObjectIntersectionOf>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-4#change_position"/>
         <Class IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-4#Guitar_player&apos;s_action"/>
     </SubClassOf>
@@ -2405,17 +2390,6 @@
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-4#do_slur"/>
-        <Class IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-4#Guitar_player&apos;s_action"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-4#do_slur"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-4#used_finger"/>
-            <Class IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-4#hand_of_neck_side"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-4#drum_sound"/>
         <Class IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-4#guitar_sound"/>
     </SubClassOf>
@@ -2434,8 +2408,17 @@
     <SubClassOf>
         <Class IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-4#few_ceja"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-7#primary-action"/>
+            <ObjectProperty IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-4#action1"/>
             <ObjectIntersectionOf>
+                <ObjectUnionOf>
+                    <Class IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-4#2"/>
+                    <Class IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-4#3"/>
+                    <Class IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-4#4"/>
+                    <ObjectSomeValuesFrom>
+                        <ObjectProperty IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-4#used_finger"/>
+                        <Class IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-4#1"/>
+                    </ObjectSomeValuesFrom>
+                </ObjectUnionOf>
                 <ObjectSomeValuesFrom>
                     <ObjectProperty IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-4#place_of_action"/>
                     <Class IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-4#at_one_fret"/>
@@ -2444,6 +2427,14 @@
                     <ObjectProperty IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-4#the_number_of_strings_to_press"/>
                     <Class IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-7#2~5"/>
                 </ObjectSomeValuesFrom>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-7#primary-action"/>
+                    <Class IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-7#press_string_neck"/>
+                </ObjectSomeValuesFrom>
+                <ObjectAllValuesFrom>
+                    <ObjectProperty IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-4#the_number_of_strings_to_press"/>
+                    <Class IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-7#2~6"/>
+                </ObjectAllValuesFrom>
             </ObjectIntersectionOf>
         </ObjectSomeValuesFrom>
     </SubClassOf>
@@ -2501,6 +2492,16 @@
     <SubClassOf>
         <Class IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-4#full_planting"/>
         <Class IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-4#planting"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-4#full_planting"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-4#action1"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-7#primary-action"/>
+                <Class IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-7#put_finger_on_string_body"/>
+            </ObjectSomeValuesFrom>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-4#gliding_sound"/>
@@ -2641,16 +2642,6 @@
         <Class IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-8#Set_rendition"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-4#planting"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-4#action1"/>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-7#primary-action"/>
-                <Class IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-7#put_finger_on_string_body"/>
-            </ObjectSomeValuesFrom>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-4#pluck_string"/>
         <Class IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-4#Guitar_player&apos;s_action"/>
     </SubClassOf>
@@ -2689,8 +2680,17 @@
     <SubClassOf>
         <Class IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-4#root_ceja"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-7#primary-action"/>
+            <ObjectProperty IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-4#action1"/>
             <ObjectIntersectionOf>
+                <ObjectUnionOf>
+                    <Class IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-4#2"/>
+                    <Class IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-4#3"/>
+                    <Class IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-4#4"/>
+                    <ObjectSomeValuesFrom>
+                        <ObjectProperty IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-4#used_finger"/>
+                        <Class IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-4#1"/>
+                    </ObjectSomeValuesFrom>
+                </ObjectUnionOf>
                 <ObjectSomeValuesFrom>
                     <ObjectProperty IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-4#place_of_action"/>
                     <Class IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-4#at_one_fret"/>
@@ -2699,6 +2699,14 @@
                     <ObjectProperty IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-4#the_number_of_strings_to_press"/>
                     <Class IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-7#2~5"/>
                 </ObjectSomeValuesFrom>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-7#primary-action"/>
+                    <Class IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-7#press_string_neck"/>
+                </ObjectSomeValuesFrom>
+                <ObjectAllValuesFrom>
+                    <ObjectProperty IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-4#the_number_of_strings_to_press"/>
+                    <Class IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-7#2~6"/>
+                </ObjectAllValuesFrom>
                 <ObjectAllValuesFrom>
                     <ObjectProperty IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-7#part_of_hand_or_finger"/>
                     <Class IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-4#root"/>
@@ -2739,12 +2747,26 @@
         <Class IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-4#planting"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-4#separate_planting"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-4#action1"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-7#primary-action"/>
+                <Class IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-7#put_finger_on_string_body"/>
+            </ObjectSomeValuesFrom>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-4#separated_sound"/>
         <Class IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-4#guitar_sound"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-4#set"/>
         <Class IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-8#Set_rendition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-4#set_materials"/>
+        <Class IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-4#Guitar_player&apos;s_action"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-4#side_board"/>
@@ -2761,8 +2783,17 @@
     <SubClassOf>
         <Class IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-4#slant_ceja"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-7#primary-action"/>
+            <ObjectProperty IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-4#action1"/>
             <ObjectIntersectionOf>
+                <ObjectUnionOf>
+                    <Class IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-4#2"/>
+                    <Class IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-4#3"/>
+                    <Class IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-4#4"/>
+                    <ObjectSomeValuesFrom>
+                        <ObjectProperty IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-4#used_finger"/>
+                        <Class IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-4#1"/>
+                    </ObjectSomeValuesFrom>
+                </ObjectUnionOf>
                 <ObjectSomeValuesFrom>
                     <ObjectProperty IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-4#place_of_action"/>
                     <Class IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-4#at_two_fret"/>
@@ -2771,6 +2802,14 @@
                     <ObjectProperty IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-4#the_number_of_strings_to_press"/>
                     <Class IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-7#2~5"/>
                 </ObjectSomeValuesFrom>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-7#primary-action"/>
+                    <Class IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-7#press_string_neck"/>
+                </ObjectSomeValuesFrom>
+                <ObjectAllValuesFrom>
+                    <ObjectProperty IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-4#the_number_of_strings_to_press"/>
+                    <Class IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-7#2~6"/>
+                </ObjectAllValuesFrom>
             </ObjectIntersectionOf>
         </ObjectSomeValuesFrom>
     </SubClassOf>
@@ -2831,6 +2870,17 @@
         <Class IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-4#Guitar_player&apos;s_action"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-4#use_slur"/>
+        <Class IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-4#Guitar_player&apos;s_action"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-4#use_slur"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-4#used_finger"/>
+            <Class IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-4#hand_of_neck_side"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-4#1"/>
         <Class IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-4#hand_of_neck_side"/>
     </SubClassOf>
@@ -2879,7 +2929,7 @@
             <ObjectIntersectionOf>
                 <ObjectSomeValuesFrom>
                     <ObjectProperty IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-7#primary-action"/>
-                    <Class IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-7#Set_materials_body"/>
+                    <Class IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-7#set_materials_body"/>
                 </ObjectSomeValuesFrom>
                 <ObjectAllValuesFrom>
                     <ObjectProperty IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-4#tool"/>
@@ -2959,7 +3009,7 @@
             <ObjectProperty IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-4#action1"/>
             <ObjectSomeValuesFrom>
                 <ObjectProperty IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-7#primary-action"/>
-                <Class IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-7#do_slur_neck"/>
+                <Class IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-7#use_slur_neck"/>
             </ObjectSomeValuesFrom>
         </ObjectSomeValuesFrom>
     </SubClassOf>
@@ -2987,7 +3037,7 @@
             <ObjectProperty IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-4#action1"/>
             <ObjectSomeValuesFrom>
                 <ObjectProperty IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-7#primary-action"/>
-                <Class IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-7#do_slur_neck"/>
+                <Class IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-7#use_slur_neck"/>
             </ObjectSomeValuesFrom>
         </ObjectSomeValuesFrom>
     </SubClassOf>
@@ -3103,7 +3153,7 @@
             <ObjectProperty IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-4#action1"/>
             <ObjectSomeValuesFrom>
                 <ObjectProperty IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-7#primary-action"/>
-                <Class IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-7#do_slur_neck"/>
+                <Class IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-7#use_slur_neck"/>
             </ObjectSomeValuesFrom>
         </ObjectSomeValuesFrom>
     </SubClassOf>
@@ -3140,28 +3190,6 @@
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-7#Set_materials_body"/>
-        <Class IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-4#Set_materials"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-7#Set_materials_body"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-4#used_finger"/>
-            <Class IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-4#hand_of_body_side"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-7#Set_materials_body"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-4#used_finger"/>
-            <Class IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-4#hand_of_neck_side"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-7#Set_materials_neck"/>
-        <Class IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-4#Set_materials"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-7#Timbre_rendition"/>
         <Class IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-4#Guitar_rendition"/>
     </SubClassOf>
@@ -3175,7 +3203,7 @@
             <ObjectProperty IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-4#action1"/>
             <ObjectSomeValuesFrom>
                 <ObjectProperty IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-7#primary-action"/>
-                <Class IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-7#do_slur_neck"/>
+                <Class IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-7#use_slur_neck"/>
             </ObjectSomeValuesFrom>
         </ObjectSomeValuesFrom>
     </SubClassOf>
@@ -3251,7 +3279,7 @@
             <ObjectProperty IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-4#action1"/>
             <ObjectSomeValuesFrom>
                 <ObjectProperty IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-7#primary-action"/>
-                <Class IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-7#do_slur_neck"/>
+                <Class IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-7#use_slur_neck"/>
             </ObjectSomeValuesFrom>
         </ObjectSomeValuesFrom>
     </SubClassOf>
@@ -3373,14 +3401,6 @@
     <SubClassOf>
         <Class IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-7#direction"/>
         <Class IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-8#qualitative_attribute"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-7#do_slur_body"/>
-        <Class IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-4#do_slur"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-7#do_slur_neck"/>
-        <Class IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-4#do_slur"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-7#elongate_and_contract_string_neck"/>
@@ -3528,6 +3548,10 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-7#put_finger_on_string_body"/>
+        <Class IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-4#Guitar_player&apos;s_action"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-7#put_finger_on_string_body"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-4#used_finger"/>
             <Class IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-4#hand_of_body_side"/>
@@ -3614,6 +3638,28 @@
             <ObjectProperty IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-4#used_finger"/>
             <Class IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-4#hand_of_neck_side"/>
         </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-7#set_materials_body"/>
+        <Class IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-4#set_materials"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-7#set_materials_body"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-4#used_finger"/>
+            <Class IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-4#hand_of_body_side"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-7#set_materials_body"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-4#used_finger"/>
+            <Class IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-4#hand_of_neck_side"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-7#set_materials_neck"/>
+        <Class IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-4#set_materials"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-7#slap_string"/>
@@ -3720,6 +3766,14 @@
         <Class IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-7#direction"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-7#use_slur_body"/>
+        <Class IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-4#use_slur"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-7#use_slur_neck"/>
+        <Class IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-4#use_slur"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-7#woodwind_sound"/>
         <Class IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-4#guitar_sound"/>
     </SubClassOf>
@@ -3810,6 +3864,20 @@
     <SubClassOf>
         <Class IRI="#Tune_up"/>
         <Class IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-7#Ornament_rendition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tune_up"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-4#symbol"/>
+            <Class IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-4#specific_symbol"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tune_up"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-4#target_sound"/>
+            <Class IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-4#microtone"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Tune_up1"/>
@@ -3919,10 +3987,6 @@
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-4#used_finger"/>
-        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
-    </SubObjectPropertyOf>
-    <SubObjectPropertyOf>
-        <ObjectProperty IRI="http://www.semanticweb.org/nami/ontologies/2017/11/untitled-ontology-4#used_string"/>
         <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
