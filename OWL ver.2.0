@@ -5,7 +5,8 @@
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     ontologyIRI="https://github.com/guitar-san/Guitar-Rendition-Ontology">
+     ontologyIRI="https://github.com/guitar-san/Guitar-Rendition-Ontology"
+     versionIRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/2.1">
     <Prefix name="" IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology"/>
     <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
     <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
@@ -14,7 +15,7 @@
     <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
     <Annotation>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">20180807</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">20180815</Literal>
     </Annotation>
     <Annotation>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -45,19 +46,19 @@
         <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology#touch_string"/>
     </Declaration>
     <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology#phenomena"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology#tap"/>
     </Declaration>
     <Declaration>
         <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology#Inverted_turn"/>
     </Declaration>
     <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology#phenomena"/>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology#on_the_string"/>
     </Declaration>
     <Declaration>
         <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology#pull_string_off_body"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology#on_the_string"/>
     </Declaration>
     <Declaration>
         <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology#pick_up_string_body"/>
@@ -147,10 +148,10 @@
         <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology#strings"/>
     </Declaration>
     <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology#Tune_up2"/>
+        <ObjectProperty IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology#note_value"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology#note_value"/>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology#Tune_up2"/>
     </Declaration>
     <Declaration>
         <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology#use_slur_neck"/>
@@ -165,10 +166,10 @@
         <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology#Performance_symbol"/>
     </Declaration>
     <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology#fifth_string"/>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology#nat"/>
     </Declaration>
     <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology#nat"/>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology#fifth_string"/>
     </Declaration>
     <Declaration>
         <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology#3"/>
@@ -181,6 +182,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology#descending_slur1"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology#metallic_sound"/>
     </Declaration>
     <Declaration>
         <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology#turn_tuning_peg"/>
@@ -199,6 +203,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology#pluck_string_body"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontologyhttps://github.com/guitar-san/Object"/>
     </Declaration>
     <Declaration>
         <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology#Guitar_player&apos;s_action"/>
@@ -246,16 +253,16 @@
         <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology#All_ceja"/>
     </Declaration>
     <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology#pull_string_off"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology#overtone"/>
     </Declaration>
     <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology#set_materials"/>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology#pull_string_off"/>
     </Declaration>
     <Declaration>
         <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology#Blassing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology#set_materials"/>
     </Declaration>
     <Declaration>
         <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology#bring_finger_down_body"/>
@@ -271,9 +278,6 @@
     </Declaration>
     <Declaration>
         <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology#set_materials_neck"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology#metalic_sound"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology#place_of_action"/>
@@ -318,10 +322,10 @@
         <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology#4"/>
     </Declaration>
     <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology#Staccato"/>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology#direction"/>
     </Declaration>
     <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology#direction"/>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology#Staccato"/>
     </Declaration>
     <Declaration>
         <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology#neck"/>
@@ -342,10 +346,10 @@
         <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology#hand_of_body_side"/>
     </Declaration>
     <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology#Scrach"/>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology#Set_rendition"/>
     </Declaration>
     <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology#Set_rendition"/>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology#Scrach"/>
     </Declaration>
     <Declaration>
         <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology#touch_string_neck"/>
@@ -372,10 +376,10 @@
         <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology#finger_board"/>
     </Declaration>
     <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology#strum_strings_body"/>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology#Bottle_neck2"/>
     </Declaration>
     <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology#Bottle_neck2"/>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology#strum_strings_body"/>
     </Declaration>
     <Declaration>
         <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology#mute_sound_neck"/>
@@ -417,10 +421,10 @@
         <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology#ornament_sound"/>
     </Declaration>
     <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology#Bartók_pizzicato"/>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology#Turn2"/>
     </Declaration>
     <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology#Turn2"/>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology#Bartók_pizzicato"/>
     </Declaration>
     <Declaration>
         <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology#Tune_down"/>
@@ -444,10 +448,10 @@
         <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology#Righthand"/>
     </Declaration>
     <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology#Natural_harmonics1"/>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology#Vibrato"/>
     </Declaration>
     <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology#Vibrato"/>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology#Natural_harmonics1"/>
     </Declaration>
     <Declaration>
         <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology#release_finger_from_the_string_neck"/>
@@ -504,16 +508,16 @@
         <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology#Pluck_string_rendition"/>
     </Declaration>
     <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology#cross_strings"/>
-    </Declaration>
-    <Declaration>
         <ObjectProperty IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology#action2"/>
     </Declaration>
     <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology#things_for_preparedo"/>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology#pitch"/>
     </Declaration>
     <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology#pitch"/>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology#cross_strings"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology#things_for_preparedo"/>
     </Declaration>
     <Declaration>
         <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology#turn_tuning_peg_body"/>
@@ -564,13 +568,13 @@
         <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology#put_finger_on_string_body"/>
     </Declaration>
     <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology#Slapping"/>
+    </Declaration>
+    <Declaration>
         <ObjectProperty IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology#primary-action"/>
     </Declaration>
     <Declaration>
         <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology#drum_sound"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology#Slapping"/>
     </Declaration>
     <Declaration>
         <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology#Guitar_rendition"/>
@@ -627,10 +631,10 @@
         <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology#press_string"/>
     </Declaration>
     <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology#Guitar_position"/>
+        <ObjectProperty IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology#direction_of_force"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology#direction_of_force"/>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology#Guitar_position"/>
     </Declaration>
     <Declaration>
         <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology#Set"/>
@@ -642,19 +646,19 @@
         <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology#the_12th_fret_from_pressed_fret"/>
     </Declaration>
     <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology#second_string"/>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology#Trill"/>
     </Declaration>
     <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology#Trill"/>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology#second_string"/>
     </Declaration>
     <Declaration>
         <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology#artificial_things"/>
     </Declaration>
     <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology#strum_strings"/>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology#finger_parts"/>
     </Declaration>
     <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology#finger_parts"/>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology#strum_strings"/>
     </Declaration>
     <Declaration>
         <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology#broken_chord"/>
@@ -678,13 +682,13 @@
         <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology#descending_slur"/>
     </Declaration>
     <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology#release_finger_from_the_string_body"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology#Al_aire"/>
     </Declaration>
     <Declaration>
         <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology#Attribute"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology#release_finger_from_the_string_body"/>
     </Declaration>
     <Declaration>
         <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology#rest_on_adjacent_string_body"/>
@@ -694,9 +698,6 @@
     </Declaration>
     <Declaration>
         <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology#chico"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontologyhttps://github.com/guitar-san/Object"/>
     </Declaration>
     <Declaration>
         <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology#Staccatissiomo"/>
@@ -729,10 +730,10 @@
         <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology#campanera"/>
     </Declaration>
     <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology#bridge"/>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology#Slur"/>
     </Declaration>
     <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology#Slur"/>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology#bridge"/>
     </Declaration>
     <Declaration>
         <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology#guitar_sound"/>
@@ -825,10 +826,10 @@
         <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology#Articulation_rendition"/>
     </Declaration>
     <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology#Apoyando"/>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology#Separate_planting"/>
     </Declaration>
     <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology#Separate_planting"/>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology#Apoyando"/>
     </Declaration>
     <Declaration>
         <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology#qualitative_attribute"/>
@@ -910,15 +911,6 @@
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology#action1"/>
             <ObjectIntersectionOf>
-                <ObjectUnionOf>
-                    <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology#2"/>
-                    <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology#3"/>
-                    <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology#4"/>
-                    <ObjectSomeValuesFrom>
-                        <ObjectProperty IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology#used_finger"/>
-                        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology#1"/>
-                    </ObjectSomeValuesFrom>
-                </ObjectUnionOf>
                 <ObjectSomeValuesFrom>
                     <ObjectProperty IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology#place_of_action"/>
                     <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology#at_one_fret"/>
@@ -931,10 +923,15 @@
                     <ObjectProperty IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology#the_number_of_strings_to_press"/>
                     <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology#6"/>
                 </ObjectSomeValuesFrom>
-                <ObjectAllValuesFrom>
-                    <ObjectProperty IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology#the_number_of_strings_to_press"/>
-                    <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology#2~6"/>
-                </ObjectAllValuesFrom>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology#used_finger"/>
+                    <ObjectUnionOf>
+                        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology#1"/>
+                        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology#2"/>
+                        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology#3"/>
+                        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology#4"/>
+                    </ObjectUnionOf>
+                </ObjectSomeValuesFrom>
             </ObjectIntersectionOf>
         </ObjectSomeValuesFrom>
     </SubClassOf>
@@ -998,19 +995,9 @@
             <ObjectIntersectionOf>
                 <ObjectIntersectionOf>
                     <ObjectSomeValuesFrom>
-                        <ObjectProperty IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology#conditional-action2"/>
-                        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology#touch_string_body"/>
+                        <ObjectProperty IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology#conditional-action1"/>
+                        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology#press_string_neck"/>
                     </ObjectSomeValuesFrom>
-                    <ObjectSomeValuesFrom>
-                        <ObjectProperty IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology#place_of_action"/>
-                        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology#the_12th_fret_from_pressed_fret"/>
-                    </ObjectSomeValuesFrom>
-                    <ObjectSomeValuesFrom>
-                        <ObjectProperty IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology#used_finger"/>
-                        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology#indice"/>
-                    </ObjectSomeValuesFrom>
-                </ObjectIntersectionOf>
-                <ObjectIntersectionOf>
                     <ObjectSomeValuesFrom>
                         <ObjectProperty IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology#primary-action"/>
                         <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology#pluck_string_body"/>
@@ -1024,10 +1011,20 @@
                         </ObjectUnionOf>
                     </ObjectSomeValuesFrom>
                 </ObjectIntersectionOf>
-                <ObjectSomeValuesFrom>
-                    <ObjectProperty IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology#conditional-action1"/>
-                    <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology#press_string_neck"/>
-                </ObjectSomeValuesFrom>
+                <ObjectIntersectionOf>
+                    <ObjectSomeValuesFrom>
+                        <ObjectProperty IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology#conditional-action2"/>
+                        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology#touch_string_body"/>
+                    </ObjectSomeValuesFrom>
+                    <ObjectSomeValuesFrom>
+                        <ObjectProperty IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology#place_of_action"/>
+                        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology#the_12th_fret_from_pressed_fret"/>
+                    </ObjectSomeValuesFrom>
+                    <ObjectSomeValuesFrom>
+                        <ObjectProperty IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology#used_finger"/>
+                        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology#indice"/>
+                    </ObjectSomeValuesFrom>
+                </ObjectIntersectionOf>
             </ObjectIntersectionOf>
         </ObjectSomeValuesFrom>
     </SubClassOf>
@@ -1392,15 +1389,6 @@
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology#action1"/>
             <ObjectIntersectionOf>
-                <ObjectUnionOf>
-                    <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology#2"/>
-                    <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology#3"/>
-                    <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology#4"/>
-                    <ObjectSomeValuesFrom>
-                        <ObjectProperty IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology#used_finger"/>
-                        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology#1"/>
-                    </ObjectSomeValuesFrom>
-                </ObjectUnionOf>
                 <ObjectSomeValuesFrom>
                     <ObjectProperty IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology#place_of_action"/>
                     <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology#at_one_fret"/>
@@ -1413,10 +1401,15 @@
                     <ObjectProperty IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology#the_number_of_strings_to_press"/>
                     <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology#2~5"/>
                 </ObjectSomeValuesFrom>
-                <ObjectAllValuesFrom>
-                    <ObjectProperty IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology#the_number_of_strings_to_press"/>
-                    <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology#2~6"/>
-                </ObjectAllValuesFrom>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology#used_finger"/>
+                    <ObjectUnionOf>
+                        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology#1"/>
+                        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology#2"/>
+                        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology#3"/>
+                        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology#4"/>
+                    </ObjectUnionOf>
+                </ObjectSomeValuesFrom>
             </ObjectIntersectionOf>
         </ObjectSomeValuesFrom>
     </SubClassOf>
@@ -2152,15 +2145,6 @@
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology#action1"/>
             <ObjectIntersectionOf>
-                <ObjectUnionOf>
-                    <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology#2"/>
-                    <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology#3"/>
-                    <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology#4"/>
-                    <ObjectSomeValuesFrom>
-                        <ObjectProperty IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology#used_finger"/>
-                        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology#1"/>
-                    </ObjectSomeValuesFrom>
-                </ObjectUnionOf>
                 <ObjectSomeValuesFrom>
                     <ObjectProperty IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology#place_of_action"/>
                     <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology#at_one_fret"/>
@@ -2173,13 +2157,18 @@
                     <ObjectProperty IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology#the_number_of_strings_to_press"/>
                     <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology#2~5"/>
                 </ObjectSomeValuesFrom>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology#used_finger"/>
+                    <ObjectUnionOf>
+                        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology#1"/>
+                        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology#2"/>
+                        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology#3"/>
+                        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology#4"/>
+                    </ObjectUnionOf>
+                </ObjectSomeValuesFrom>
                 <ObjectAllValuesFrom>
                     <ObjectProperty IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology#part_of_hand_or_finger"/>
                     <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology#root"/>
-                </ObjectAllValuesFrom>
-                <ObjectAllValuesFrom>
-                    <ObjectProperty IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology#the_number_of_strings_to_press"/>
-                    <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology#2~6"/>
                 </ObjectAllValuesFrom>
             </ObjectIntersectionOf>
         </ObjectSomeValuesFrom>
@@ -2281,15 +2270,6 @@
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology#action1"/>
             <ObjectIntersectionOf>
-                <ObjectUnionOf>
-                    <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology#2"/>
-                    <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology#3"/>
-                    <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology#4"/>
-                    <ObjectSomeValuesFrom>
-                        <ObjectProperty IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology#used_finger"/>
-                        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology#1"/>
-                    </ObjectSomeValuesFrom>
-                </ObjectUnionOf>
                 <ObjectSomeValuesFrom>
                     <ObjectProperty IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology#place_of_action"/>
                     <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology#at_two_fret"/>
@@ -2302,10 +2282,15 @@
                     <ObjectProperty IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology#the_number_of_strings_to_press"/>
                     <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology#2~5"/>
                 </ObjectSomeValuesFrom>
-                <ObjectAllValuesFrom>
-                    <ObjectProperty IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology#the_number_of_strings_to_press"/>
-                    <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology#2~6"/>
-                </ObjectAllValuesFrom>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology#used_finger"/>
+                    <ObjectUnionOf>
+                        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology#1"/>
+                        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology#2"/>
+                        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology#3"/>
+                        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology#4"/>
+                    </ObjectUnionOf>
+                </ObjectSomeValuesFrom>
             </ObjectIntersectionOf>
         </ObjectSomeValuesFrom>
     </SubClassOf>
@@ -2472,7 +2457,7 @@
         <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology#Sul_poticello"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology#target_sound"/>
-            <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology#metalic_sound"/>
+            <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology#metallic_sound"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -3302,7 +3287,7 @@
         <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology#hand_of_body_side"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology#metalic_sound"/>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology#metallic_sound"/>
         <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology#guitar_sound"/>
     </SubClassOf>
     <SubClassOf>
@@ -4043,4 +4028,3 @@ p is play a role of bass/melody part.</Literal>
 
 
 <!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
-
