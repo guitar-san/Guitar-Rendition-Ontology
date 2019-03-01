@@ -12,6 +12,7 @@ We set the classical guitar renditions as the concepts with properties for expla
 
 ### References
 (1) Nami Iino, Satoshi Nishimura, Takuichi Nishimura, Ken Fukuda, Hideaki Takeda: The Guitar Rendition Ontology for Teaching and Learning Support, The 13th IEEE International Conference on Semantic Computing (ICSC), Resource track, 31 January 2019.
+
 (2) Nami Iino, Mayumi Shimada, Takuichi Nishimura, Hideaki Takeda, Masatoshi Hamanaka: Proposal of an Annotation Method for Integrating Musical Technique Knowledge using a GTTM Time-Span Tree, 25th International Conference on MultiMedia Modeling (MMM), 10 January 2019.
 
 ### Contact
