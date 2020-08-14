@@ -13,13 +13,13 @@ OWL
 
 ### Version
 #### Japanese
-2.2
+* 2.2
 
 
 #### English
-2.3(same as japanese 2.2)
+* 2.3(same as japanese 2.2)
 
-2.4
+* 2.4
 
 ---
 
