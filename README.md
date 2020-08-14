@@ -11,10 +11,11 @@ We set the classical guitar renditions as the concepts with properties for expla
 ### format
 OWL
 
-### latest Version
+### Version
 Japanese 2.2
 
 English  2.3(same as japanese 2.2)
+         2.4
 
 ---
 
