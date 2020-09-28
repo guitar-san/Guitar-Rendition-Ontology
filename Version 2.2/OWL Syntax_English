@@ -16,7 +16,15 @@
     <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
     <Annotation>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <Literal xml:lang="en">DAte: 201901-now
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Same as ver.2.2/japanese</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Guitar Rendition Ontology ver.2.3</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">DAte: 201901-now
 
 Change the classification of renditions
 -Timbre rendition
@@ -28,52 +36,284 @@ Define the relation between renditions
 Delete the rendtion
 -Fagot</Literal>
     </Annotation>
-    <Annotation>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <Literal xml:lang="en">Guitar Rendition Ontology ver.2.3</Literal>
-    </Annotation>
-    <Annotation>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <Literal>Same as ver.2.2/japanese</Literal>
-    </Annotation>
     <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/Al_aire"/>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/tuner"/>
     </Declaration>
     <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/All_ceja"/>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/change_position_neck"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/first_string"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/sound_hall"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/Fingering_rendition"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/Inverted_turn2"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/Slur"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/put_a"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/pulgar"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/quarter"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/Campanella"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/Set_rendition"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/overtone"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/fret"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/some_strings"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/chico"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/target_sound"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/Turn1"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/Trill"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/drum_sound"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/hand_of_body_side"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/press_string"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/neck"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/the_12th_fret_from_pressed_fret"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/Percussion_on_body"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/Staccatissimo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/direction"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/tap_body"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/Staccato"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/fluctuating_sound"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/Few_ceja"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/Tabalet"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/pluck_string_neck"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/Trill1"/>
     </Declaration>
     <Declaration>
         <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/Apoyando"/>
     </Declaration>
     <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/Arpeggio"/>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/Turn2"/>
     </Declaration>
     <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/Articulation_rendition"/>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/ornament_sound"/>
     </Declaration>
     <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/Artificial_harmonics"/>
+        <ObjectProperty IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/tool"/>
     </Declaration>
     <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/Ascending_slur"/>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/put_p"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/the_number_of_string"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/more_than_half"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/on_the_bridge"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/put_finger_on_string"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/Bottle_neck2"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/Glissando"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/Semi-apoyando"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/continual_sound"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/finger_board"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/Trill2"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/Tune_up"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/Pralltriller1"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/second-high"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/Scratch"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/Mezo_staccato"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/bottleneck"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/muted_sound"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/pull_string_off_neck"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/Natural_harmonics2"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/slap_string"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/strum_strings_body"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/mute_sound_neck"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/artificial_things"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/Mordento1"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/Chord_rendition"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/Sul_poticello"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/set_material"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/palm"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/hand_parts"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/on_the_string"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/ornament_tone"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/trill_tone"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/strings"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/rub_string_body"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/pick_up_string_neck"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/topObjectProperty"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/Hammar-on"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/Octave"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/Natural_harmonics1"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/metallic_sound"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/slap_string_body"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/nat"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/phenomena"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/Natural_harmonics"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/playing-action"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/effective_sound"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/hand"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/cross_strings_neck"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/Tune_up2"/>
     </Declaration>
     <Declaration>
         <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/Ascending_slur1"/>
     </Declaration>
     <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/Ascending_slur2"/>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/Slapping"/>
     </Declaration>
     <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/Attribute"/>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/Mordento"/>
     </Declaration>
     <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/Bartók_pizzicato"/>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/Pluck_string_rendition"/>
     </Declaration>
     <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/Blassing"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/Bothhand"/>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/Scratch2"/>
     </Declaration>
     <Declaration>
         <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/Bottle_neck"/>
@@ -82,805 +322,565 @@ Delete the rendtion
         <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/Bottle_neck1"/>
     </Declaration>
     <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/Bottle_neck2"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/Campanella"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/Ceja"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/Choking"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/Chord_rendition"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/Close"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/Cutting"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/Descending_slur"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/Descending_slur1"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/Descending_slur2"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/Few_ceja"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/Figeta"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/Fingering_rendition"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/Full_planting"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/Glissando"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/Guitar_position"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/Guitar_rendition"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/Hammar-on"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/Harmony_rendition"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/Inverted_turn"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/Inverted_turn1"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/Inverted_turn2"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/Mezo_staccato"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/Mordento"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/Mordento1"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/Mordento2"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/Natural_harmonics"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/Natural_harmonics1"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/Natural_harmonics2"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/Note_value_rendition"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/Object"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/Octave"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/Open"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/Ornament_rendition"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/Percussion_on_body"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/Percussion_on_finger_board"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/Percussive_renditon"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/Performance_symbol"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/Pizzicato"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/Planting"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/Pluck_string_rendition"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/Plucking_on_the_head"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/Portamento"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/Pralltriller"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/Pralltriller1"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/Prepared"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/Press_string_rendition"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/Pull-off"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/Rasgueado"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/Righthand"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/Root_ceja"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/Scratch"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/Scratch1"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/Scratch2"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/Semi-apoyando"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/Separate_planting"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/Set"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/Set_rendition"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/Slant_ceja"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/Slapping"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/Slur"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/Staccatissimo"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/Staccato"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/Sul_poticello"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/Sul_tasto"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/Tabalet"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/Tambora"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/Tapping"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/Timbre_rendition"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/Tremolo"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/Trill"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/Trill1"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/Trill2"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/Tune_down"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/Tune_down1"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/Tune_down2"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/Tune_up"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/Tune_up1"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/Tune_up2"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/Turn"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/Turn1"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/Turn2"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/Vibrato"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/all_strings"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/anular"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/articulation_symbol"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/artificial_things"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/at_one_fret"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/at_two_fret"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/between_nat_and_peg"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/board"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/bottleneck"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/bridge"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/bridge_bone"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/bridge_side"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/bring_finger_down"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/bring_finger_down_body"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/bring_finger_down_neck"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/broken_chord"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/campanella"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/change_position"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/change_position_body"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/change_position_neck"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/chico"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/chord"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/continual_same_sound"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/continual_sound"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/cross_strings"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/cross_strings_neck"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/described_pitch"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/direction"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/drum_sound"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/effective_sound"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/elongate_and_contract_string"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/elongate_and_contract_string_neck"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/fifth_string"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/finger_board"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/finger_parts"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/first_string"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/fluctuating_sound"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/fourth_string"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/fret"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/gliding_sound"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/guitar"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/guitar_parts"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/guitar_sound"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/half"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/hand"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/hand_of_body_side"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/hand_of_neck_side"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/hand_parts"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/head"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/human_body"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/indice"/>
     </Declaration>
     <Declaration>
         <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/instrument_sound"/>
     </Declaration>
     <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/joint"/>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/Slant_ceja"/>
     </Declaration>
     <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/length"/>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/described_pitch"/>
     </Declaration>
     <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/medio"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/metallic_sound"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/microtone"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/more_than_half"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/mute_sound"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/mute_sound_body"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/mute_sound_neck"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/muted_sound"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/nail_parts"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/nat"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/neck"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/neck_side"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/noise"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/object"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/on_the_body"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/on_the_bridge"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/on_the_flet"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/on_the_neck"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/on_the_string"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/ornament_sound"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/ornament_symbol"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/overtone"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/palm"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/percussion_sound"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/phenomena"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/pick_up_string"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/pick_up_string_body"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/pick_up_string_neck"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/pitch"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/pluck_string"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/pluck_string_body"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/pluck_string_neck"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/pralltriller2"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/press_string"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/press_string_body"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/press_string_neck"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/pulgar"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/pull_string_off"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/pull_string_off_body"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/pull_string_off_neck"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/put_a"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/put_finger_on_string"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/put_finger_on_string_body"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/put_i"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/put_m"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/put_p"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/qualitative_attribute"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/quantitative_attribute"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/quarter"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/release_finger_from_the_string"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/release_finger_from_the_string_body"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/release_finger_from_the_string_neck"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/rest_on_adjacent_string"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/rest_on_adjacent_string_body"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/rest_on_adjacent_string_neck"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/right_and_left"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/root"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/rub_string"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/rub_string_body"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/rub_string_neck"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/second-high"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/second-low"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/second_string"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/separated_sound"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/set_material"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/set_material_body"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/set_material_neck"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/side_board"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/sixth_string"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/slap_string"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/slap_string_body"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/slap_string_neck"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/slaped_string_sound"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/soft_sound"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/some_strings"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/sound_hall"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/specific_symbol"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/strings"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/strum_strings"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/strum_strings_body"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/tap"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/tap_body"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/tap_neck"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/the_12th_fret_from_pressed_fret"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/the_number_of_string"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/things_for_preparedo"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/third_string"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/tip"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/top_board"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/touch_finger_board"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/touch_finger_board_neck"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/touch_string"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/touch_string_body"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/touch_string_neck"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/trill_tone"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/tuner"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/tuning_peg"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/turn_tuning_peg"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/turn_tuning_peg_body"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/turn_tuning_peg_neck"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/unison"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/up_and_down"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/use_slur"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/use_slur_body"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/use_slur_neck"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/woodwind_sound"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/1st_finger"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/2nd_finger"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/3rd_finger"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/4th_finger"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/Guitar_player&apos;s_action"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/action1"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/action2"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/action3"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/conditional-action1"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/conditional-action2"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/direction_of_force"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/first_tone"/>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/Plucking_on_the_head"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/note_value"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/ornament_tone"/>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/second_string"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/part_of_hand_or_finger"/>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/specific_symbol"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/rest_on_adjacent_string"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/direction_of_force"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/Guitar_player&apos;s_action"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/Scratch1"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/tap"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/place_of_action"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/playing-action"/>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/turn_tuning_peg_neck"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/primary-action"/>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/Mordento2"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/tip"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/bridge_side"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/All_ceja"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/slap_string_neck"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/at_one_fret"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/Al_aire"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/pull_string_off_body"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/sixth_string"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/on_the_neck"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/indice"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/Arpeggio"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/between_nat_and_peg"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/Planting"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/Separate_planting"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/Sul_tasto"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/on_the_flet"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/neck_side"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/Turn"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/qualitative_attribute"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/head"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/Percussion_on_finger_board"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/Press_string_rendition"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/guitar_parts"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/put_i"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/noise"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/Prepared"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/turn_tuning_peg"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/nail_parts"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/touch_finger_board_neck"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/Full_planting"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/rub_string"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/bring_finger_down_body"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/Blassing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/rest_on_adjacent_string_neck"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/pull_string_off"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/Ceja"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/Open"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/third_string"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/board"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/4th_finger"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/Ornament_rendition"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/rest_on_adjacent_string_body"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/ornament_symbol"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/Artificial_harmonics"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/elongate_and_contract_string_neck"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/Object"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/bring_finger_down_neck"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/set_material_body"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/Tune_down"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/1st_finger"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/all_strings"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/set_material_neck"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/guitar_sound"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/Bartók_pizzicato"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/Bothhand"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/Tune_down2"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/Descending_slur2"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/Ascending_slur2"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/human_body"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/touch_string_neck"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/mute_sound"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/use_slur_body"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/touch_finger_board"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/pick_up_string_body"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/Tune_up1"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/Rasgueado"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/slaped_string_sound"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/Tambora"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/2nd_finger"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/microtone"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/Descending_slur1"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/anular"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/Percussive_renditon"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/on_the_body"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/Cutting"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/tuning_peg"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/action3"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/Righthand"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/release_finger_from_the_string_neck"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/hand_of_neck_side"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/fourth_string"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/Vibrato"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/articulation_symbol"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/touch_string"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/Figeta"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/press_string_body"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/length"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/pluck_string_body"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/bridge_bone"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/Articulation_rendition"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/unison"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/turn_tuning_peg_body"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/Note_value_rendition"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/release_finger_from_the_string_body"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/continual_same_sound"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/gliding_sound"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/Close"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/up_and_down"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/pluck_string"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/broken_chord"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/touch_string_body"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/action2"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/soft_sound"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/put_m"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/put_finger_on_string_body"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/Ascending_slur"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/top_board"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/pralltriller2"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/Root_ceja"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/pick_up_string"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/change_position"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/Harmony_rendition"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/object"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/Tapping"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/3rd_finger"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/Tune_down1"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/percussion_sound"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/Timbre_rendition"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/joint"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/use_slur_neck"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/first_tone"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/right_and_left"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/rub_string_neck"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/Inverted_turn"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/tap_neck"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/root"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/pitch"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/conditional-action2"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/symbol"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/target_sound"/>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/at_two_fret"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/primary-action"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/Tremolo"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/part_of_hand_or_finger"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/Pralltriller"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/Guitar_rendition"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/action1"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/elongate_and_contract_string"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/woodwind_sound"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/change_position_body"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/use_slur"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/bridge"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/finger_parts"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/Guitar_position"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/strum_strings"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/Descending_slur"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/Pull-off"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/the_number_of_strings_to_press"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/tool"/>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/side_board"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/topObjectProperty"/>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/release_finger_from_the_string"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/conditional-action1"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/second-low"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/Choking"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/separated_sound"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/used_finger"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/fifth_string"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/Pizzicato"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/medio"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/quantitative_attribute"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/bring_finger_down"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/Set"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/cross_strings"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/Attribute"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/Portamento"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/chord"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/Inverted_turn1"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/things_for_preparedo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/mute_sound_body"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/Performance_symbol"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/press_string_neck"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/half"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/campanella"/>
     </Declaration>
     <EquivalentClasses>
         <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/Ascending_slur"/>
@@ -4327,48 +4327,48 @@ Delete the rendtion
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>https://github.com/guitar-san/Guitar-Rendition-Ontology#Campanera_rendition</IRI>
-        <Literal xml:lang="en">it is Italian word for “little bell.”
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">it is Italian word for “little bell.”
 play a passage using deveral strings, 
 sometimes use open sting and high possition</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/Al_aire</IRI>
-        <Literal xml:lang="en">it means in the air (en).
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">it means in the air (en).
 known as tirando (sp), free-stroke (en).</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/Arpeggio</IRI>
-        <Literal xml:lang="en">Arpeggio/broken chord is a chord broken into sequence of notes</Literal>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Arpeggio/broken chord is a chord broken into sequence of notes</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/Campanella</IRI>
-        <Literal xml:lang="en">it is an Italian word for “little bell&quot;
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">it is an Italian word for “little bell&quot;
 
 sometimes use open strings and high posstion</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/Descending_slur1</IRI>
-        <Literal xml:lang="en">sound an open string</Literal>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">sound an open string</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/Tremolo</IRI>
-        <Literal xml:lang="ja">play in order of p-a-m-i.
+        <Literal xml:lang="ja" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">play in order of p-a-m-i.
 a, m, and i use same string.
 p is play a role of bass/melody part.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/instrument_sound</IRI>
-        <Literal xml:lang="ja">楽器や人の声によって奏でられる「音楽の音」あるいは「音楽に使われる音」</Literal>
+        <Literal xml:lang="ja" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">楽器や人の声によって奏でられる「音楽の音」あるいは「音楽に使われる音」</Literal>
     </AnnotationAssertion>
 </Ontology>
 
 
 
-<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
 
