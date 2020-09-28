@@ -9,17 +9,18 @@ We set the classical guitar renditions as the concepts with properties for expla
 </p>
 
 ### format
-OWL
+OWL Syntax
 
-### Version
-#### Japanese
-* 2.2
+### Version 2.1
+* Laguage: English
 
+### Version 2.2
+* Laguage: Japanese and English (different file)
 
-#### English
-* 2.3(same as japanese 2.2)
-
-* 2.4
+### Version 2.3(2.4)
+* Laguage: Japanese and English
+* Label: Japanese > skos:prefLabel
+         English  > rdfs:label
 
 ---
 
