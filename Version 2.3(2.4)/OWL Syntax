@@ -7381,7 +7381,7 @@ p is play a role of bass/melody part.</Literal>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#prefLabel"/>
         <IRI>GRO/Guitar_player&apos;s_action</IRI>
-        <Literal xml:lang="ja">ギター奏法者行為</Literal>
+        <Literal xml:lang="ja">ギター奏者行為</Literal>
     </AnnotationAssertion>
 </Ontology>
 
