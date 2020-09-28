@@ -8,8 +8,6 @@ We set the classical guitar renditions as the concepts with properties for expla
 <img src ="https://user-images.githubusercontent.com/38068844/39338656-183bd6ac-49ff-11e8-9974-44ad88ff01e9.png" />
 </p>
 
-### format
-OWL Syntax
 
 ### Version 2.1
 * Format: OWL Syntax
