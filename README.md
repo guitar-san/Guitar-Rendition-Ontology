@@ -21,7 +21,8 @@ We set the classical guitar renditions as the concepts with properties for expla
 * Format: OWL Syntax
 * Laguage: Japanese and English
 * Label: Japanese > skos:prefLabel
-         English  > rdfs:label
+
+&nbsp         English  > rdfs:label
 
 ---
 
