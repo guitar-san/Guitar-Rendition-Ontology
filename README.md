@@ -12,12 +12,15 @@ We set the classical guitar renditions as the concepts with properties for expla
 OWL Syntax
 
 ### Version 2.1
+* Format: OWL Syntax
 * Laguage: English
 
 ### Version 2.2
+* Format: OWL Syntax
 * Laguage: Japanese and English (different file)
 
 ### Version 2.3(2.4)
+* Format: OWL Syntax
 * Laguage: Japanese and English
 * Label: Japanese > skos:prefLabel
          English  > rdfs:label
