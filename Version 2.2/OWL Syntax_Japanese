@@ -16,11 +16,17 @@
     <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
     <Annotation>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">2018.12.12 「行為」プロパティを加えて修正</Literal>
+        <Literal>2018.12.12 「行為」プロパティを加えて修正</Literal>
     </Annotation>
     <Annotation>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">2019.1.4 
+        <Literal>2018.8-
+
+実行行為の記述形式の変更</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <Literal>2019.1.4 
 CHARM形式化による奏法の分類，ICSC2019アンケート調査　を反映
 ・効果音奏法と音色変化奏法の分類変更
 ・弦蔵部の撥弦左右なし
@@ -29,856 +35,850 @@ CHARM形式化による奏法の分類，ICSC2019アンケート調査　を反�
     </Annotation>
     <Annotation>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <Literal xml:lang="ja" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">クラシックギターの奏法に関するオントロジー</Literal>
+        <Literal xml:lang="ja">クラシックギターの奏法に関するオントロジー</Literal>
     </Annotation>
-    <Annotation>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">2018.8-
-
-実行行為の記述形式の変更</Literal>
-    </Annotation>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/ラスゲアード"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/ハンマリング・オン"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/行為場所"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/フレット上"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/人工物"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/実行行為３"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/弦を打つ（胴）"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/フル・プランティング"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/弦から指を離す（指）"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/押弦奏法"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/1つのフレット"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/2つの弦を重ねる（指）"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/ギター"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/ペグを回す（指）"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/連続音"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/ギター部位"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/2つの弦を重ねる"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/ポジション移動する（指）"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/トレモロ"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/楽音"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/オクターブ奏法"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/フィゲタ奏法"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/フレット"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/揺らぎ音"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/弦を押す（胴）"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/ポジション移動する（胴）"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/実行行為２"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/弦を弾く（胴）"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/2度下音"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/隣の弦にもたれかかる（胴）"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/1弦"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/ルートセーハ"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/ギター奏者行為"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/弦を伸縮させる"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/スラー"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/弦を叩く（指）"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/オープン"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/分離音"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/アル・アイレ"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/擦弦"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/弦を弾く（指）"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/押弦フレットから12フレット目"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/実行行為１"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/道具"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/スラーを用いる（指）"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/指先"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/プラルトリラー"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/使用指"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/カッティング"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/弦を叩く"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/胴板上"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/タッピング"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/ドラム音"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/弦"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/音高"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/カンパネラ奏法"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/セミ・アポヤンド"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/2つのフレット"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/発音"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/音価変化奏法"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/ポルタメント"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/効果音奏法"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/ペグを回す（胴）"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/モルデント"/>
-    </Declaration>
     <Declaration>
         <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/aをおく"/>
     </Declaration>
     <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/擦弦２"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/スタッカート"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/ノイズ"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/6本"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/和音"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/打弦音"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/ビブラート"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/物"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/音色変化奏法"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/スル・タスト"/>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/a指"/>
     </Declaration>
     <Declaration>
         <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/ch指"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/伸縮方向"/>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/iをおく"/>
     </Declaration>
     <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/クローズ"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/撥弦奏法"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/ライトハンド奏法"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/消音する（胴）"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/上行スラー"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/タンボーラ"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/ヘッド"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/擦弦１"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/メゾ・スタッカート"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/セーハ"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/硬質な音"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/アポヤンド"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/プランティング"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/弦を緩める奏法１"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/爪部位"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/隣の弦にもたれかかる"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/取り付ける（指）"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/定量的属性"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/人工ハーモニクス"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/スラーを用いる（胴）"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/下行スラー"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/微分音"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/チョーキング"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/プリペアド用品"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/弦を引き上げる（指）"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/弦を触る（指）"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/1／2"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/手指"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/側面板"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/スタッカティッシモ"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/指板上"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/スル・ポンティチェロ"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/効果音"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/pをおく"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/ギターポジション"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/上行スラー１"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/表記音"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/下行スラー２"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/消音する"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/弦をかき鳴らす（胴）"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/小セーハ"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/ターン"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/スラーを用いる"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/弦を押す"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/モルデント２"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/使用部位"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/鐘"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/弦を押す（指）"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/弦を引っ掻く（指）"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/ブリッジ上"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/方向"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/弦に指を置く"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/サウンド・ホール"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/自然ハーモニクス"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/下行スラー１"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/m指"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/叩く（胴）"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/5本以下"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/上行スラー２"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/モルデント１"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/打楽器音"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/属性"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/弦を触る（胴）"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/指板"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/手部位"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/バルトーク・ピッチカート"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/トリル"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/楽器固有記号"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/取り付ける（胴）"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/プリペアド奏法"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/斜めセーハ"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/ターン２"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/弦に指を置く（胴）"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/弦を引き上げる（胴）"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/弦から指を離す"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/アルペジョ"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/人体"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/弦を擦る"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/具体物"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/主行為"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/ギター奏法"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/ギター音"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/ボディを叩く"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/p指"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/ミュート音"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/トリル１"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/音響変化奏法"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/弦を引っ掻く"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/ブラッシング"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/演奏記号"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/表現形態"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/弦を緩める奏法２"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/倍音"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/自然ハーモニクス２"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/叩く"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/弦を擦る（胴）"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/付け根"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/トリル２"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/6弦"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/4指"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/押弦数"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/胴板側の手指"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/弦を締める奏法"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/弦を緩める奏法"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/取り付ける"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/ペグを回す"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/指板側の手指"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/装飾音"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/目的音"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/タバレット"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/プラルトリラー２"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/1/4"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/2本以上"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/連続音（同音）"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/弦を擦る（指）"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/自然ハーモニクス１"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/チューナー"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/上下"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/1〜1／2"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/ポジションを移動する"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/弦を叩く（胴）"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/弦を打つ"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/装飾奏法"/>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/i指"/>
     </Declaration>
     <Declaration>
         <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/mをおく"/>
     </Declaration>
     <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/弦を締める奏法１"/>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/m指"/>
     </Declaration>
     <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/ネックを触る（指）"/>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/pをおく"/>
     </Declaration>
     <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/セット"/>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/p指"/>
     </Declaration>
     <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/指部位"/>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/アポヤンド"/>
     </Declaration>
     <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/弦を触る"/>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/アルペジョ"/>
     </Declaration>
     <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/逆ターン２"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/弦蔵部の撥弦"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/条件行為１"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/ボトルネック奏法２"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/骨棒"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/ボトルネック"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/弦数"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/基本奏法"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/プラルトリラー１"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/装飾記号"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/2指"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/叩く（指）"/>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/アル・アイレ"/>
     </Declaration>
     <Declaration>
         <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/アーティキュレーション記号"/>
     </Declaration>
     <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/4弦"/>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/オクターブ奏法"/>
     </Declaration>
     <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/ピッチカート"/>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/オープン"/>
     </Declaration>
     <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/隣の弦にもたれかかる（指）"/>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/カッティング"/>
     </Declaration>
     <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/長さ"/>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/カンパネラ奏法"/>
     </Declaration>
     <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/全セーハ"/>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/ギター"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/ギターポジション"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/ギター奏法"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/ギター奏者行為"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/ギター部位"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/ギター音"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/クローズ"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/グリッサンド"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/サウンド・ホール"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/スタッカティッシモ"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/スタッカート"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/スラッピング"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/スラー"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/スラーを用いる"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/スラーを用いる（指）"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/スラーを用いる（胴）"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/スル・タスト"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/スル・ポンティチェロ"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/セット"/>
     </Declaration>
     <Declaration>
         <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/セパレート・プランティング"/>
     </Declaration>
     <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/顫音"/>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/セミ・アポヤンド"/>
     </Declaration>
     <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/定性的属性"/>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/セーハ"/>
     </Declaration>
     <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/逆ターン"/>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/タッピング"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/タバレット"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/タンボーラ"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/ターン"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/ターン１"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/ターン２"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/チューナー"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/チョーキング"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/トリル"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/トリル１"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/トリル２"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/トレモロ"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/ドラム音"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/ナット"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/ナットと糸巻きの間"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/ネック"/>
     </Declaration>
     <Declaration>
         <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/ネックを触る"/>
     </Declaration>
     <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/逆ターン１"/>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/ネックを触る（指）"/>
     </Declaration>
     <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/柔らかい音"/>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/ノイズ"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/条件行為２"/>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/ハンマリング・オン"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/バルトーク・ピッチカート"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/ビブラート"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/ピッチカート"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/フィゲタ奏法"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/フル・プランティング"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/フレット"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/フレット上"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/ブラッシング"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/ブリッジ"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/ブリッジ上"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/ブリッジ側"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/プラルトリラー"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/プラルトリラー１"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/プラルトリラー２"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/プランティング"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/プリペアド奏法"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/プリペアド用品"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/プリング・オフ"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/ヘッド"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/ペグを回す"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/ペグを回す（指）"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/ペグを回す（胴）"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/ボスハンド奏法"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/ボディを叩く"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/ボトルネック"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/ボトルネック奏法"/>
     </Declaration>
     <Declaration>
         <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/ボトルネック奏法１"/>
     </Declaration>
     <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/グリッサンド"/>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/ボトルネック奏法２"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/ポジションを移動する"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/ポジション移動する（指）"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/ポジション移動する（胴）"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/ポルタメント"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/ミュート音"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/メゾ・スタッカート"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/モルデント"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/モルデント１"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/モルデント２"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/ユニゾン"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/ライトハンド奏法"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/ラスゲアード"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/ルートセーハ"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/上下"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/上行スラー"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/上行スラー１"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/上行スラー２"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/下行スラー"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/下行スラー１"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/下行スラー２"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/人体"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/人工ハーモニクス"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/人工物"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/付け根"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/倍音"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/側面板"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/全セーハ"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/具体物"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/分散和音"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/分離音"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/効果音"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/効果音奏法"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/取り付ける"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/取り付ける（指）"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/取り付ける（胴）"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/叩く"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/叩く（指）"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/叩く（胴）"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/和音"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/和音変化奏法"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/固定奏法"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/基本奏法"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/定性的属性"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/定量的属性"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/小セーハ"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/属性"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/左右"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/弦"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/弦から指を離す"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/弦から指を離す（指）"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/弦から指を離す（胴）"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/弦に指を置く"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/弦に指を置く（胴）"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/弦をかき鳴らす"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/弦をかき鳴らす（胴）"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/弦を伸縮させる"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/弦を伸縮させる（指）"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/弦を叩く"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/弦を叩く（指）"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/弦を叩く（胴）"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/弦を引き上げる"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/弦を引き上げる（指）"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/弦を引き上げる（胴）"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/弦を引っ掻く"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/弦を引っ掻く（指）"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/弦を引っ掻く（胴）"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/弦を弾く"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/弦を弾く（指）"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/弦を弾く（胴）"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/弦を打つ"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/弦を打つ（指）"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/弦を打つ（胴）"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/弦を押す"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/弦を押す（指）"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/弦を押す（胴）"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/弦を擦る"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/弦を擦る（指）"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/弦を擦る（胴）"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/弦を締める奏法"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/弦を締める奏法１"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/弦を締める奏法２"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/弦を緩める奏法"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/弦を緩める奏法１"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/弦を緩める奏法２"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/弦を触る"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/弦を触る（指）"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/弦を触る（胴）"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/弦上"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/弦数"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/弦蔵部の撥弦"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/微分音"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/手の平"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/手指"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/手部位"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/打弦音"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/打楽器音"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/押弦フレットから12フレット目"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/押弦奏法"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/指先"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/指板"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/指板上"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/指板上を叩く"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/指板側"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/指板側の手指"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/指部位"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/揺らぎ音"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/撥弦奏法"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/擦弦"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/擦弦１"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/擦弦２"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/斜めセーハ"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/方向"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/木管楽器音"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/柔らかい音"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/楽器固有記号"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/楽音"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/消音する"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/消音する（指）"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/消音する（胴）"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/滑走音"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/演奏記号"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/爪部位"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/物"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/現象"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/硬質な音"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/糸巻"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/胴板"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/胴板上"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/胴板側の手指"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/自然ハーモニクス"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/自然ハーモニクス１"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/自然ハーモニクス２"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/表記音"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/表面板"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/装飾奏法"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/装飾記号"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/装飾音"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/逆ターン"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/逆ターン１"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/逆ターン２"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/連続音"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/連続音（同音）"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/鐘"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/長さ"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/隣の弦にもたれかかる"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/隣の弦にもたれかかる（指）"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/隣の弦にもたれかかる（胴）"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/音価変化奏法"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/音節変化奏法"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/音色変化奏法"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/音響変化奏法"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/音高"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/顫音"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/骨棒"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/1〜1／2"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/1つのフレット"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/1弦"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/1指"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/1／2"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/1/1／4"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/2つのフレット"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/2つの弦を重ねる"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/2つの弦を重ねる（指）"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/2度上音"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/2度下音"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/2弦"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/2指"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/2本以上"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/3弦"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/3指"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/4弦"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/4指"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/5弦"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/5本以下"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/6弦"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/6本"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/主行為"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/伸縮方向"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/使用指"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/使用部位"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/実行行為１"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/実行行為２"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/実行行為３"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/押弦数"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/条件行為１"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/条件行為２"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/発音"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/目的音"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/行為"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/行為場所"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/表現形態"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/道具"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/開始音"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/音価"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/5弦"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/3指"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/弦を伸縮させる（指）"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/行為"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/a指"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/和音変化奏法"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/弦上"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/弦から指を離す（胴）"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/プリング・オフ"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/左右"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/胴板"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/分散和音"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/ユニゾン"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/現象"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/音節変化奏法"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/ナットと糸巻きの間"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/ボスハンド奏法"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/糸巻"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/指板上を叩く"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/弦をかき鳴らす"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/スラッピング"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/弦を打つ（指）"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/2弦"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/ブリッジ側"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/ネック"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/弦を弾く"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/弦を引き上げる"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/滑走音"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/ブリッジ"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/指板側"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/消音する（指）"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/ナット"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/弦を引っ掻く（胴）"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/固定奏法"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/弦を締める奏法２"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/表面板"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/ターン１"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/手の平"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/2度上音"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/iをおく"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/ボトルネック奏法"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/3弦"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/1指"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/木管楽器音"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/i指"/>
     </Declaration>
     <EquivalentClasses>
         <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/セット"/>
@@ -1232,7 +1232,7 @@ CHARM形式化による奏法の分類，ICSC2019アンケート調査　を反�
         <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/スタッカティッシモ"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/音価"/>
-            <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/1/4"/>
+            <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/1/1／4"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -4224,7 +4224,7 @@ CHARM形式化による奏法の分類，ICSC2019アンケート調査　を反�
         <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/長さ"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/1/4"/>
+        <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/1/1／4"/>
         <Class IRI="https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/長さ"/>
     </SubClassOf>
     <SubClassOf>
@@ -4330,787 +4330,212 @@ CHARM形式化による奏法の分類，ICSC2019アンケート調査　を反�
     </FunctionalObjectProperty>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/aをおく</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">put anular on string</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/iをおく</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">put indiceon string</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/mをおく</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">put medio on string</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/pをおく</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">put pulgar on string</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/アポヤンド</IRI>
-        <Literal xml:lang="es" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Apoyando</Literal>
+        <Literal xml:lang="es">Apoyando</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/アルペジョ</IRI>
-        <Literal xml:lang="ja" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">和音をずらして弾く奏法
+        <Literal xml:lang="ja">和音をずらして弾く奏法
 通常、下から上にずらして演奏する。前にずらす場合も、後にずらす場合もある。また、上から下にずらすときには矢印を付けて表す。</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/アルペジョ</IRI>
-        <Literal xml:lang="es" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Arpeggio</Literal>
+        <Literal xml:lang="es">Arpeggio</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/アルペジョ</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">分散和音（日本語）</Literal>
+        <Literal>分散和音（日本語）</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/アル・アイレ</IRI>
-        <Literal xml:lang="ja" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">撥弦後にいずれの弦にも当てない右手の技法</Literal>
+        <Literal xml:lang="ja">撥弦後にいずれの弦にも当てない右手の技法</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/アル・アイレ</IRI>
-        <Literal xml:lang="es" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Al aire</Literal>
+        <Literal xml:lang="es">Al aire</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/オクターブ奏法</IRI>
-        <Literal xml:lang="ja" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">1オクターヴ離れた同じ音を、一人の演奏家がユニゾンで演奏すること。</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/オクターブ奏法</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Octave</Literal>
+        <Literal xml:lang="ja">1オクターヴ離れた同じ音を、一人の演奏家がユニゾンで演奏すること。</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/オープン</IRI>
-        <Literal xml:lang="ja" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">押弦する指部分以外はネックに接触せずに押弦する技法</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/オープン</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Open</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/カッティング</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Cutting</Literal>
+        <Literal xml:lang="ja">押弦する指部分以外はネックに接触せずに押弦する技法</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/カンパネラ奏法</IRI>
-        <Literal xml:lang="ja" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">音階を弾く時になるべく複数の弦を使って弾く奏法
+        <Literal xml:lang="ja">音階を弾く時になるべく複数の弦を使って弾く奏法
 
 “高いポジションの音”と“開放弦の音”を細かく織り交ぜることにより、
 開放弦の残響音（共鳴音）を、高音部で奏でるラインに重ねて音を響かせる</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/カンパネラ奏法</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Campanella</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/ギター奏法</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Guitar rendition</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/ギター奏者行為</IRI>
-        <Literal xml:lang="ja" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">ギター奏者行為</Literal>
+        <Literal xml:lang="ja">ギター奏者行為</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/クローズ</IRI>
-        <Literal xml:lang="ja" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">押弦する指部分以外がネックに接触した状態で押弦する技法</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/クローズ</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Close</Literal>
+        <Literal xml:lang="ja">押弦する指部分以外がネックに接触した状態で押弦する技法</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/グリッサンド</IRI>
-        <Literal xml:lang="de" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Glissando</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/スタッカティッシモ</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Staccatissimo</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/スタッカート</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Staccato</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/スラッピング</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Slapping</Literal>
+        <Literal xml:lang="de">Glissando</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/スラー</IRI>
-        <Literal xml:lang="es" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Slur</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/スラーを用いる</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">use slur</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/スラーを用いる（指）</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">use slur neck</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/スラーを用いる（胴）</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">use slur body</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/スル・タスト</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Sul tasto</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/スル・ポンティチェロ</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Sul ponticello</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/セット</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Set</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/セパレート・プランティング</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Separate planting</Literal>
+        <Literal xml:lang="es">Slur</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/セミ・アポヤンド</IRI>
-        <Literal xml:lang="es" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Semi-apoyando</Literal>
+        <Literal xml:lang="es">Semi-apoyando</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/セーハ</IRI>
-        <Literal xml:lang="es" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Ceja</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/タッピング</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Tapping</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/タバレット</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Tabalet</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/タンボーラ</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Tambora</Literal>
+        <Literal xml:lang="es">Ceja</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/ターン</IRI>
-        <Literal xml:lang="ja" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">ターン - 音符の上にこの記号が付いている場合には、音符の音の2度上から始め、素早く音符の音を演奏し、2度下の音に行ってから戻りる。右にずれている（次の音符との間にある）場合には、その音を演奏してから、次の音に移る前に2度上の音—音符の音—2度下の音—音符の音と演奏する。記号の上に臨時記号が付いている場合には、2度上の音に、記号の下に臨時記号が付いている場合には2度下の音に、その臨時記号を付けて演奏する。</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/ターン</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Turn</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/チョーキング</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Choking</Literal>
+        <Literal xml:lang="ja">ターン - 音符の上にこの記号が付いている場合には、音符の音の2度上から始め、素早く音符の音を演奏し、2度下の音に行ってから戻りる。右にずれている（次の音符との間にある）場合には、その音を演奏してから、次の音に移る前に2度上の音—音符の音—2度下の音—音符の音と演奏する。記号の上に臨時記号が付いている場合には、2度上の音に、記号の下に臨時記号が付いている場合には2度下の音に、その臨時記号を付けて演奏する。</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/トリル</IRI>
-        <Literal xml:lang="ja" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">〘音〙 装飾音の一種。ある音と，それより二度上または下の音とをかわるがわる速く奏する。顫音（せんおん）。トリロ。トリラー。記号 tr</Literal>
+        <Literal xml:lang="ja">〘音〙 装飾音の一種。ある音と，それより二度上または下の音とをかわるがわる速く奏する。顫音（せんおん）。トリロ。トリラー。記号 tr</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/トリル</IRI>
-        <Literal xml:lang="ja" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">トリル - その音の音価の間中、書かれた音と2度上の音の間を素早く往復する。上の音から始める場合と、書かれた音から始める場合とがありが、原則としてバロックでは上の音から始め、ロマン派以降では書かれた音から始める。上の音から始めることを特に示すためには、短前打音を書き添える。トリルの終わりでは一回2度下の音に行き、書かれた音に戻るのが普通だが、2度下の音に行くことを省略することもある。2度下の音を省略しないことを示すためには、後打音を書き添える。</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/トリル</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Trill</Literal>
+        <Literal xml:lang="ja">トリル - その音の音価の間中、書かれた音と2度上の音の間を素早く往復する。上の音から始める場合と、書かれた音から始める場合とがありが、原則としてバロックでは上の音から始め、ロマン派以降では書かれた音から始める。上の音から始めることを特に示すためには、短前打音を書き添える。トリルの終わりでは一回2度下の音に行き、書かれた音に戻るのが普通だが、2度下の音に行くことを省略することもある。2度下の音を省略しないことを示すためには、後打音を書き添える。</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/トレモロ</IRI>
-        <Literal xml:lang="ja" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">p-a-m-iの順番で演奏する．a,m,iは同じ弦を弾き，pで和音を奏でる．</Literal>
+        <Literal xml:lang="ja">p-a-m-iの順番で演奏する．a,m,iは同じ弦を弾き，pで和音を奏でる．</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/トレモロ</IRI>
-        <Literal xml:lang="es" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Tremolo</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/ネックを触る</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">touch finger board</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/ネックを触る（指）</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">touch finger board neck</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/ハンマリング・オン</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Hummar-on</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/バルトーク・ピッチカート</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Bartok pizzicato</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/ビブラート</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Vibrato</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/ピッチカート</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Pizzicato</Literal>
+        <Literal xml:lang="es">Tremolo</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/フィゲタ奏法</IRI>
-        <Literal xml:lang="es" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Figeta</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/フル・プランティング</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Full planting</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/ブラッシング</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Blassing</Literal>
+        <Literal xml:lang="es">Figeta</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/プラルトリラー</IRI>
-        <Literal xml:lang="ja" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">プラルトリラー - 逆モルデントとも言う。音の始まりを飾る短いトリル（後述）である。音符の音を演奏してから素早く2度上の音を演奏し、すぐに戻る。記号が長い場合には、2回往復する。最初に2度上の音を加える場合もある。記号に臨時記号が付いている場合には、2度上の音にその臨時記号を付けて演奏する。</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/プラルトリラー</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Pralltriller</Literal>
+        <Literal xml:lang="ja">プラルトリラー - 逆モルデントとも言う。音の始まりを飾る短いトリル（後述）である。音符の音を演奏してから素早く2度上の音を演奏し、すぐに戻る。記号が長い場合には、2回往復する。最初に2度上の音を加える場合もある。記号に臨時記号が付いている場合には、2度上の音にその臨時記号を付けて演奏する。</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/プランティング</IRI>
-        <Literal xml:lang="ja" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">弾く前に弦上に指を準備しておくこと。
+        <Literal xml:lang="ja">弾く前に弦上に指を準備しておくこと。
 空中から指を振り下ろすのではなく、弦の上に指を待機させておいて、そのまま弦を引っ張り、音を出す。</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/プランティング</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Planting</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/プリペアド奏法</IRI>
-        <Literal xml:lang="ja" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">弦に木材などの物をを取り付けて演奏する技法</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/プリペアド奏法</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Prepared</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/プリング・オフ</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Pull-off</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/ペグを回す</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">turn tuning peg</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/ペグを回す（指）</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">turn tuning peg neck</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/ペグを回す（胴）</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">turn tuning peg body</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/ボスハンド奏法</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Bothhand</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/ボディを叩く</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Percussion on body</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/ボトルネック奏法</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Bottle neck</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/ポジションを移動する</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">change position</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/ポジション移動する（指）</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">change position neck</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/ポジション移動する（胴）</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">change position body</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/ポルタメント</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Portamento</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/メゾ・スタッカート</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Mezo staccato</Literal>
+        <Literal xml:lang="ja">弦に木材などの物をを取り付けて演奏する技法</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/モルデント</IRI>
-        <Literal xml:lang="ja" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">モルデント - プラルトリラーの逆で、音符の音を演奏してから素早く2度下の音を演奏し、すぐに戻る。最初に2度下の音を加える場合もある。記号に臨時記号が付いている場合には、2度下の音にその臨時記号を付けて演奏する。</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/モルデント</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Mordento</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/ライトハンド奏法</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Righthand</Literal>
+        <Literal xml:lang="ja">モルデント - プラルトリラーの逆で、音符の音を演奏してから素早く2度下の音を演奏し、すぐに戻る。最初に2度下の音を加える場合もある。記号に臨時記号が付いている場合には、2度下の音にその臨時記号を付けて演奏する。</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/ラスゲアード</IRI>
-        <Literal xml:lang="es" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Rasgueado</Literal>
+        <Literal xml:lang="es">Rasgueado</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/ルートセーハ</IRI>
-        <Literal xml:lang="es" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Root ceja</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/上行スラー</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Ascending slur</Literal>
+        <Literal xml:lang="es">Root ceja</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/上行スラー１</IRI>
-        <Literal xml:lang="ja" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">開放弦からスラーをする場合</Literal>
+        <Literal xml:lang="ja">開放弦からスラーをする場合</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/上行スラー２</IRI>
-        <Literal xml:lang="ja" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">押弦からスラーする場合</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/下行スラー</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Descending slur</Literal>
+        <Literal xml:lang="ja">押弦からスラーする場合</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/下行スラー１</IRI>
-        <Literal xml:lang="ja" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">開放弦を出す</Literal>
+        <Literal xml:lang="ja">開放弦を出す</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/下行スラー２</IRI>
-        <Literal xml:lang="ja" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">押弦音を出す</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/人工ハーモニクス</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Artificial harmonics</Literal>
+        <Literal xml:lang="ja">押弦音を出す</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/全セーハ</IRI>
-        <Literal xml:lang="es" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">All ceja</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/効果音奏法</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Percussive rendition</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/取り付ける</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">set material</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/取り付ける（指）</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">set material neck</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/取り付ける（胴）</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">set material body</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/叩く</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">tap</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/叩く（指）</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">tap neck</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/叩く（胴）</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">tap body</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/和音変化奏法</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Chord rendition</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/固定奏法</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Set rendition</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/基本奏法</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Fingering rendition</Literal>
+        <Literal xml:lang="es">All ceja</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/小セーハ</IRI>
-        <Literal xml:lang="es" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Few ceja</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/弦から指を離す</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">release finger from the string</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/弦から指を離す（指）</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">release finger from the string neck</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/弦から指を離す（胴）</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">release finger from the string body</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/弦に指を置く</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">put finger on string</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/弦に指を置く（胴）</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">put finger on string body</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/弦をかき鳴らす</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">strum strings</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/弦をかき鳴らす（胴）</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">strum strings body</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/弦を伸縮させる</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">elongate and contract string</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/弦を伸縮させる（指）</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">elongate and contract string neck</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/弦を引き上げる</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">pick up string</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/弦を引き上げる（指）</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">pick up string neck</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/弦を引き上げる（胴）</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">pick up string body</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/弦を引っ掻く</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">pull string off</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/弦を引っ掻く（指）</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">pull string off neck</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/弦を引っ掻く（胴）</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">pull string off body</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/弦を弾く</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">pluck string</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/弦を弾く（指）</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">pluck string neck</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/弦を弾く（胴）</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">pluck string body</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/弦を打つ</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">slap string</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/弦を打つ（指）</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">slap string neck</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/弦を打つ（胴）</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">slap string body</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/弦を押す</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">press string</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/弦を押す（指）</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">press string neck</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/弦を押す（胴）</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">press string body</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/弦を擦る</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">rub string</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/弦を擦る（指）</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">rub string neck</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/弦を擦る（胴）</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">rub string body</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/弦を締める奏法</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Tune up</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/弦を緩める奏法</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Tune down</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/弦を触る</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">touch string</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/弦を触る（指）</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">touch string neck</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/弦を触る（胴）</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">touch string body</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/弦蔵部の撥弦</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Pluck on the head</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/指板上を叩く</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Percussion on finger board</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/撥弦奏法</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Pluck string rendtion</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/擦弦</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Scratch</Literal>
+        <Literal xml:lang="es">Few ceja</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/斜めセーハ</IRI>
-        <Literal xml:lang="es" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Slant ceja</Literal>
+        <Literal xml:lang="es">Slant ceja</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/楽音</IRI>
-        <Literal xml:lang="ja" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">楽器や人の声によって奏でられる「音楽の音」あるいは「音楽に使われる音」</Literal>
+        <Literal xml:lang="ja">楽器や人の声によって奏でられる「音楽の音」あるいは「音楽に使われる音」</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/楽音</IRI>
-        <Literal xml:lang="ja" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">楽音</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/消音する</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">mute sound</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/消音する（指）</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">mute sound neck</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/消音する（胴）</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">mute sound body</Literal>
+        <Literal xml:lang="ja">楽音</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/目的音</IRI>
-        <Literal xml:lang="ja" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">目的音</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/自然ハーモニクス</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Natural harmonics</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/装飾奏法</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Ornament rendition</Literal>
+        <Literal xml:lang="ja">目的音</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/逆ターン</IRI>
-        <Literal xml:lang="ja" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">転回ターン - 下の音から始めるターンである。2種の書き方がある。</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/逆ターン</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Inverted turn</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/隣の弦にもたれかかる</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">rest on adjacent string</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/隣の弦にもたれかかる（指）</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">rest on adjacent string neck</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/隣の弦にもたれかかる（胴）</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">rest on adjacent string body</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/音価変化奏法</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Note value rendition</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/音節変化奏法</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Articulation rendition</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/音色変化奏法</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Timbre rendition</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/音響変化奏法</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Harmony rendition</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/2つの弦を重ねる</IRI>
-        <Literal xml:lang="ja" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">cross strings</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/2つの弦を重ねる（指）</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">cross strings neck</Literal>
+        <Literal xml:lang="ja">転回ターン - 下の音から始めるターンである。2種の書き方がある。</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/2本以上</IRI>
-        <Literal xml:lang="ja" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">2〜6本</Literal>
+        <Literal xml:lang="ja">2〜6本</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>https://github.com/guitar-san/Guitar-Rendition-Ontology/GRO/5本以下</IRI>
-        <Literal xml:lang="ja" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">2〜5本</Literal>
+        <Literal xml:lang="ja">2〜5本</Literal>
     </AnnotationAssertion>
 </Ontology>
 
 
 
-<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
 
