@@ -1,4 +1,4 @@
-# Guitar Rendition Ontology
+# Guitar Rendition Ontology (GRO)
 
 Guitar Rendition Ontology is a new ontology dealing with classical guitar rendition by Protege OWL for supporting players’ understanding.
 
@@ -8,19 +8,24 @@ We set the classical guitar renditions as the concepts with properties for expla
 <img src ="https://user-images.githubusercontent.com/38068844/39338656-183bd6ac-49ff-11e8-9974-44ad88ff01e9.png" />
 </p>
 
+---
+### Version
 
-### Version 2.1
+#### Version 2.1
 * Format: OWL Syntax
 * Laguage: English
 
-### Version 2.2
+#### Version 2.2
 * Format: OWL Syntax
 * Laguage: Japanese and English (different file)
 
-### Version 2.3(2.4)
+#### Version 2.3(2.4)
 * Format: OWL Syntax
 * Laguage: Japanese and English
 * Label: Japanese >skos:prefLabel, English  >rdfs:label
+
+
+Please download the ZIP file from "Code" button and open each OWL file by Protege.
 
 ---
 
