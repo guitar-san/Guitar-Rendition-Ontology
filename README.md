@@ -22,8 +22,12 @@ We set the classical guitar renditions as the concepts with properties for expla
 #### Version 2.3(2.4)
 * Format: OWL Syntax
 * Laguage: Japanese and English
-* Label: Japanese >skos:prefLabel, English  >rdfs:label
+* Label: skos:prefLabel→Japanese, rdfs:label→English
 
+#### Version 3.0
+* Format: OWL Syntax
+* Laguage: Japanese and English
+* Label: skos:prefLabel→Japanese, rdfs:label→English
 
 Please download the ZIP file from "Code" button and open each OWL file by Protege.
 
